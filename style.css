@@ -1,0 +1,43 @@
+*{margin: 0; padding: 0;}
+/* .wrapper__area {
+    display: flex;
+} */
+
+.snake_color {
+    /* display: block; */
+    background-color: chocolate;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.wall {
+    
+        background: radial-gradient( 70% 30%,#ff2701, #8da89b ) ;
+    
+    
+}
+.apple {
+    background-color: lime;
+    /* height: 100%; */
+}
+
+.poison {
+    background: radial-gradient( 40% 50%,#fffb1b, #CAE4D8 ) ;
+
+}
+td {
+    width: 48px;
+    height: 48px;
+    border: 2px solid rgb(150, 146, 146);
+    /* display: inline-block; */
+}
+
+.area {
+    margin: 0 auto;
+    width: 590px;
+    height: 590px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 1 1   auto; */
+    border: 6px solid chocolate;
+}
